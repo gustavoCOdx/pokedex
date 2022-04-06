@@ -15,3 +15,108 @@ h1{
     text-align: center;
     font-size: 54px;
 }
+
+.pokedex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cartao{
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+    padding: 40px;
+    width: 270px;
+    height: 250px;
+    border-radius: 20px;
+    transition: transform 0.2;
+    opacity: 0.7;
+}
+
+.cartao:hover{
+    transform: scale(1.1);
+}
+
+.grass{
+    background-color: #29c033;
+}
+
+.stell{
+    background-color: #7e7e7e;
+
+}
+
+.fire{ 
+    background-color: #cb1c1c;
+}
+
+.electric{
+    background-color: #f7d945;
+}
+
+ .water, .ice{
+        background-color: #b5e7ff;
+}
+
+  .ground{
+      background-color: #6e4616;
+
+}
+
+  .rock{
+      background-color: #764100;
+}
+
+  .poison{
+      background-color: #671662;
+}
+
+  .fairy{
+      background-color: #ff72d0;
+}
+           
+  .bug{
+      background-color: #005c06;
+}
+
+  .dragon{
+      background-color: #1e00ff;
+}
+
+  .psychic{
+      background-color: #fb86d4;
+}
+
+  .flying{
+      background-color: #c2ecff;
+}
+
+  .normal{
+      background-color: #b1b1b1;
+}
+
+  .fighting{
+      background-color: #9d2424;
+}
+
+  .ghost{
+      background-color: #b700ff;
+}
+
+.cartao-titulo{
+    text-transform: capitalize;
+    color: #222;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.cartao-subtitulo{
+    color: #667;
+    margin-top: 5px;
+    font-weight: lighter;
+}
+
+.cartao img{
+    width: 180px;
+}
